@@ -11,6 +11,9 @@ Make sure you had already installed the following stuffs:
 - VirtualBox
 
 ### To run this program
+Type following command to your terminal to run this program:
+
+``` ```
 
 ### Resources
 

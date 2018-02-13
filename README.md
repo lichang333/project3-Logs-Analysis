@@ -6,9 +6,9 @@ This project is for Udacity Full Stack Web Developer Nanodegree. In this project
 
 ### Envirnment
 Make sure you had already installed the following stuffs:
-- Python 3
-- Vagrant
-- VirtualBox
+* Python 3
+* Vagrant
+* VirtualBox
 
 ### To run this program
 Type following command to your terminal to run this program:

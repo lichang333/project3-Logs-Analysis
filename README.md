@@ -17,6 +17,7 @@ Type following command to your terminal to run this program:
 ``` ```
 
 ### Resources
+fullstack-nanodegree-vm：https://github.com/udacity/fullstack-nanodegree-vm
 
 ### License
 The content of this repository is licensed under a Creative Commons Attribution License.

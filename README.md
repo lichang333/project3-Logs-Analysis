@@ -1,4 +1,4 @@
-# Udacity Full Stack Web Developer Nanodegree Project 3 - Log Anlysis
+# Full Stack Web Developer Nanodegree Project 3 - Log Anlysis
 
 ### Introduction
 This project is for Udacity Full Stack Web Developer Nanodegree. In this project, there have a large database with nearly a million rows. The target is to collect the useful informations and generate a business report from thoes data.

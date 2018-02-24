@@ -14,7 +14,11 @@ Make sure you had already installed the following stuffs:
 ### To run this program
 Type following command to your terminal to run this program:
 
-``` ```
+* To lunch the virtual machine, type  ```vagrant up```, then login with command ```vagrant ssh```
+
+* Use ```psql -d news -f newsdata.sql ``` to load data.
+
+* Type ```python3 newsdata.py ``` to run.
 
 ### Resources
 fullstack-nanodegree-vm：https://github.com/udacity/fullstack-nanodegree-vm

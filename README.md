@@ -18,7 +18,9 @@ Type following command to your terminal to run this program:
 
 * Use ```psql -d news -f newsdata.sql ``` to load data.
 
-* Type ```python3 newsdata.py ``` to run.
+* Type ```python3 main.py ``` to run.
+
+* Clone the configuration from: https://github.com/udacity/fullstack-nanodegree-vm
 
 ### Resources
 fullstack-nanodegree-vm：https://github.com/udacity/fullstack-nanodegree-vm

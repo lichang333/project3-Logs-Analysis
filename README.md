@@ -13,7 +13,7 @@ Make sure you had already installed the following stuffs:
 
 ### To run this program
 
-* Clone the configuration from: https://github.com/udacity/fullstack-nanodegree-vm
+Clone the configuration from: https://github.com/udacity/fullstack-nanodegree-vm
 
 Type following command to your terminal to run this program:
 

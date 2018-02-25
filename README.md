@@ -12,6 +12,9 @@ Make sure you had already installed the following stuffs:
 
 
 ### To run this program
+
+* Clone the configuration from: https://github.com/udacity/fullstack-nanodegree-vm
+
 Type following command to your terminal to run this program:
 
 * To lunch the virtual machine, type  ```vagrant up```, then login with command ```vagrant ssh```
@@ -20,7 +23,7 @@ Type following command to your terminal to run this program:
 
 * Type ```python3 main.py ``` to run.
 
-* Clone the configuration from: https://github.com/udacity/fullstack-nanodegree-vm
+
 
 ### Resources
 fullstack-nanodegree-vm：https://github.com/udacity/fullstack-nanodegree-vm

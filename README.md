@@ -15,7 +15,7 @@ Make sure you had already installed the following stuffs:
 
 1. Clone the configuration from: https://github.com/udacity/fullstack-nanodegree-vm
 
-2. Download the [newsdata.zip](https://s3.amazonaws.com/video.udacity-data.com/topher/2016/August/57b5f748_newsdata/newsdata.zip).
+2. Download [newsdata.zip](https://s3.amazonaws.com/video.udacity-data.com/topher/2016/August/57b5f748_newsdata/newsdata.zip).
 
 3. Type following command to your terminal to run this program:
 

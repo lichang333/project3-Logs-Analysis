@@ -32,19 +32,18 @@ report_result_3 = (
     "where perc >= 1")
 
 
-
 def connect(database_name="news"):
     '''Connect to the PostgreSQL database and return the database connection '''
     try:
         db = psycopg2.connect("dbname={}".format(database_name))
         cursor = db.cursor()
         return db, cursor
-    except:
+    except BaseException:
         print ("Cannot connect to the database")
 
 
 def get_results(query):
-    '''Return the answer for each questions'''	
+    '''Return the answer for each questions'''
     db, cursor = connect()
     cursor.execute(query)
     return cursor.fetchall()
@@ -54,24 +53,28 @@ def get_results(query):
 def print_results(query_results):
     print (query_results[1])
     for index, results in enumerate(query_results[0]):
-        print ("\t", index+1, "-", results[0],"\t - ", str(results[1]), "views")
+        print ("\t",
+               index + 1,
+               "-",
+               results[0],
+               "\t - ",
+               str(results[1]),
+               "views")
+
 
 def print_error_results(query_results):
     print (query_results[1])
     for results in query_results[0]:
-        print ("\t", results[0], "-", str(results[1]) + "% errors")     
+        print ("\t", results[0], "-", str(results[1]) + "% errors")
 
 
 if __name__ == '__main__':
-	# Save the results
+    # Save the results
     popular_articles_results = get_results(report_result_1), report_title_1
     popular_authors_results = get_results(report_result_2), report_title_2
     load_error_days = get_results(report_result_3), report_title_3
 
-	#Print the results
+    # Print the results
     print_results(popular_articles_results)
     print_results(popular_authors_results)
     print_error_results(load_error_days)
-
-
-

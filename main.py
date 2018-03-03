@@ -40,6 +40,7 @@ def connect(database_name="news"):
         return db, cursor
     except BaseException:
         print("Cannot connect to the database")
+	sys.exit(1)
 
 
 def get_results(query):
@@ -76,5 +77,8 @@ if __name__ == '__main__':
 
     # Print the results
     print_results(popular_articles_results)
+	#print the top popular articles.
     print_results(popular_authors_results)
+	#print the top popular authors.
     print_error_results(load_error_days)
+	#print the days which have more than 1% error.

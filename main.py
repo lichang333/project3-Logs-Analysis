@@ -33,13 +33,13 @@ report_result_3 = (
 
 
 def connect(database_name="news"):
-    '''Connect to the PostgreSQL database and return the database connection '''
+    '''Connect to the PostgreSQL database & return the database connection '''
     try:
         db = psycopg2.connect("dbname={}".format(database_name))
         cursor = db.cursor()
         return db, cursor
     except BaseException:
-        print ("Cannot connect to the database")
+        print("Cannot connect to the database")
 
 
 def get_results(query):
@@ -51,9 +51,9 @@ def get_results(query):
 
 
 def print_results(query_results):
-    print (query_results[1])
+    print(query_results[1])
     for index, results in enumerate(query_results[0]):
-        print ("\t",
+        print("\t",
                index + 1,
                "-",
                results[0],
@@ -63,9 +63,9 @@ def print_results(query_results):
 
 
 def print_error_results(query_results):
-    print (query_results[1])
+    print(query_results[1])
     for results in query_results[0]:
-        print ("\t", results[0], "-", str(results[1]) + "% errors")
+        print("\t", results[0], "-", str(results[1]) + "% errors")
 
 
 if __name__ == '__main__':
